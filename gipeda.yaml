@@ -1,7 +1,7 @@
 start: c1e8d4e2450dd5726802c64ce2f70ba6de9723e3
 benchmarkScript: cloben
 benchmarks:
-- match: benchmarks/*
+- match: "benchmarks/*"
   group: Benchmarks
   unit: ns
-  type_: float
+  type: float
