@@ -1,0 +1,6 @@
+benchmarkScript: cloben
+benchmarks:
+- match: benchmarks/fib/*
+  group: Benchmarks
+  unit: ns
+  type_: float
