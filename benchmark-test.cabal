@@ -7,7 +7,7 @@ license:             BSD3
 license-file:        LICENSE
 author:              Sebastian Graf
 maintainer:          sgraf1337@gmail.com
-copyright:           2015 Sebastian Graf
+copyright:           2018 Sebastian Graf
 category:            Development
 build-type:          Simple
 cabal-version:       >=1.10
@@ -29,4 +29,4 @@ benchmark benchmarks
 
   build-depends:
     base >= 4.7 && < 5,
-    criterion >= 0.6.2.1 && < 1.2
+    criterion
